@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background: linear-gradient(90deg, #007bff, #00c853);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-bg {
+  background-color: #cdcdc7 !important;
+}
+.icon-bg:hover {
+  background-color: #46524b !important;
+  transition: 0.4s ease;
+  color: white;
+}

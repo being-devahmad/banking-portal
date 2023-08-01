@@ -1,0 +1,10 @@
+This is a sinple banking portal having some main features
+1. login - signup form where you can perform multiple logins
+2. dashboard where you can see your amount and some more features like deposal and withdrawl
+3. You can also cash in and out whenever you want 
+
+--> Signup and login 
+first of all user will fill his credentials and submit and all data will be sent to local storage then it will redirect user to login page where he can acess to the dashboard providing correct info
+
+--> Dashboard 
+dashboard will show the blance of the user which will be updated by buttons named cashin and cash out , and the balance will be sent to localstorage of that particular user and we can update them through js and updated blanace will be displayed on dashboard
