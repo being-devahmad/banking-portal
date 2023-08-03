@@ -73,6 +73,7 @@ let withdrawCash = () => {
         localStorage.setItem("userDetails", JSON.stringify(userData));
 
         updateBalance(val.balance);
+        
       } else {
         alert("Insufficient balance");
       }
@@ -99,3 +100,5 @@ let withdrawCash = () => {
   // Update the balance display on the page
   updateBalance(balance);
 })();
+
+

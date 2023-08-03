@@ -1,5 +1,5 @@
-let showUserName = document.getElementById("userName")
-let showUserEmail = document.getElementById("userEmail")
+// let showUserName = document.getElementById("userName")
+// let showUserEmail = document.getElementById("userEmail")
 
 
 // Getting data from the login form and validating
@@ -19,7 +19,6 @@ loginForm.addEventListener("submit", (e) => {
       break;
     }
   }
-
   if (checkStatus) {
     alert("Login successful");
     // Redirect to the dashboard.html page after successful login

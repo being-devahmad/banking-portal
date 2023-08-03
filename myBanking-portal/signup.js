@@ -27,7 +27,7 @@ regForm.addEventListener("submit", (e) => {
       phoneNo: contact,
       EmailId: email,
       Password: password,
-      Balance: 1000.00
+      Balance: 0
     });
 
     localStorage.setItem("userDetails", JSON.stringify(userData));
